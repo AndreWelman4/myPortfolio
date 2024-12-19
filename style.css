@@ -1,22 +1,29 @@
 body {
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
-
+#leftSide {
+    margin-top: 35px;
+    width: 250px;
+    background-color: lightgray;
+    text-align: center;    
+    padding: 15px;
+    }
 img {
-    float: left;
     height: 150px;
     width: 150px;
-    border: 5px solid whitesmoke;
     border-radius: 50%;
+    border: 5px solid lightgray;
+    float: left;
 }
 
 h1{
     text-align: center;
 }
-
-h2{
-    text-align: left;
-}
-
-
+#rightSide {
+    margin-top: 35px;
+    width: 250px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    }
